@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Crituras">
+      <UniqueIdentifier>{516437af-8c63-4cd0-8acc-193ffc3ad51e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de recursos\Criaturas">
+      <UniqueIdentifier>{79f32c62-55c8-453b-991a-b8b6f0ace8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Factorys">
+      <UniqueIdentifier>{684c2cd8-e905-4a33-994d-6853334b2a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\persistencia">
+      <UniqueIdentifier>{560db9d7-1c8d-4bfd-9fe7-491265e3901b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Mapa.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Entidad.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Recurso.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="RecursoFactory.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaz.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="IObservadorEvento.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerEventos.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Criatura.h">
+      <Filter>Archivos de encabezado\Crituras</Filter>
+    </ClInclude>
+    <ClInclude Include="Herviroro.h">
+      <Filter>Archivos de encabezado\Crituras</Filter>
+    </ClInclude>
+    <ClInclude Include="Carnivoros.h">
+      <Filter>Archivos de encabezado\Crituras</Filter>
+    </ClInclude>
+    <ClInclude Include="Omnivoros.h">
+      <Filter>Archivos de encabezado\Crituras</Filter>
+    </ClInclude>
+    <ClInclude Include="CriaturaFactory.h">
+      <Filter>Archivos de encabezado\Factorys</Filter>
+    </ClInclude>
+    <ClInclude Include="Persistencia.h">
+      <Filter>Archivos de encabezado\persistencia</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Mapa.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="Entidad.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="Recurso.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursoFactory.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="Criatura.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="CriaturaFactory.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaz.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerEventos.cpp">
+      <Filter>Archivos de recursos</Filter>
+    </ClCompile>
+    <ClCompile Include="Carnivoros.cpp">
+      <Filter>Archivos de recursos\Criaturas</Filter>
+    </ClCompile>
+    <ClCompile Include="Herviroro.cpp">
+      <Filter>Archivos de recursos\Criaturas</Filter>
+    </ClCompile>
+    <ClCompile Include="Omnivoros.cpp">
+      <Filter>Archivos de recursos\Criaturas</Filter>
+    </ClCompile>
+    <ClCompile Include="Persistencia.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

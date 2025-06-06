@@ -1,0 +1,4 @@
+3
+C 2 3 50 Tigre 50 Tigre
+H 5 7 80 Ciervo 80 Ciervo
+O 1 1 30 Oso 30 Oso
